@@ -1,4 +1,4 @@
-FROM jetbrains/teamcity-minimal-agent
+FROM jetbrains/teamcity-minimal-agent:2019.1.2
 
 RUN apt-get update && apt-get install -y git sudo
 RUN curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
